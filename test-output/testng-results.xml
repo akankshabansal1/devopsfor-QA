@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="4" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Amazon.in Test Suite" duration-ms="42943" started-at="2020-05-31T13:56:10 IST" finished-at="2020-05-31T13:56:53 IST">
+    <groups>
+    </groups>
+    <test name="Amazon.in Test Cases" duration-ms="42943" started-at="2020-05-31T13:56:10 IST" finished-at="2020-05-31T13:56:53 IST">
+      <class name="TestngPackage.SearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestngPackage.SearchTest@258e2e41]" name="setUp" is-config="true" duration-ms="31" started-at="2020-05-31T13:56:22 IST" finished-at="2020-05-31T13:56:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchTest()[pri:0, instance:TestngPackage.SearchTest@258e2e41]" name="searchTest" duration-ms="10491" started-at="2020-05-31T13:56:22 IST" finished-at="2020-05-31T13:56:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+      </class> <!-- TestngPackage.SearchTest -->
+      <class name="TestngPackage.WishlistTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestngPackage.WishlistTest@55a561cf]" name="setUp" is-config="true" duration-ms="3" started-at="2020-05-31T13:56:35 IST" finished-at="2020-05-31T13:56:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="wishlistTest()[pri:0, instance:TestngPackage.WishlistTest@55a561cf]" name="wishlistTest" duration-ms="11926" started-at="2020-05-31T13:56:35 IST" finished-at="2020-05-31T13:56:47 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='WLNEW_list_name']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKANKSHA3554', ip: '192.168.43.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKANKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a120f9addf938f9ac1518b4eb3598f3e
+*** Element info: {Using=xpath, value=//input[@id='WLNEW_list_name']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='WLNEW_list_name']"}
+  (Session info: chrome=83.0.4103.61)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'AKANKSHA3554', ip: '192.168.43.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.61, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\AKANKS~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:60549}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: a120f9addf938f9ac1518b4eb3598f3e
+*** Element info: {Using=xpath, value=//input[@id='WLNEW_list_name']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy8.sendKeys(Unknown Source)
+at PageObjects.WishlistPage.inputWishlistName(WishlistPage.java:39)
+at TestngPackage.WishlistTest.wishlistTest(WishlistTest.java:24)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1249)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlistTest -->
+      </class> <!-- TestngPackage.WishlistTest -->
+      <class name="TestngPackage.DeleteProductTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestngPackage.DeleteProductTest@3d299e3]" name="setUp" is-config="true" duration-ms="3" started-at="2020-05-31T13:56:32 IST" finished-at="2020-05-31T13:56:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="deleteProduct()[pri:0, instance:TestngPackage.DeleteProductTest@3d299e3]" name="deleteProduct" duration-ms="2627" started-at="2020-05-31T13:56:32 IST" finished-at="2020-05-31T13:56:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteProduct -->
+      </class> <!-- TestngPackage.DeleteProductTest -->
+      <class name="TestngPackage.SigninTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestngPackage.SigninTest@3b938003]" name="setUp" is-config="true" duration-ms="3" started-at="2020-05-31T13:56:48 IST" finished-at="2020-05-31T13:56:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="signinTest()[pri:1, instance:TestngPackage.SigninTest@3b938003]" name="signinTest" duration-ms="5139" started-at="2020-05-31T13:56:48 IST" finished-at="2020-05-31T13:56:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signinTest -->
+      </class> <!-- TestngPackage.SigninTest -->
+    </test> <!-- Amazon.in Test Cases -->
+  </suite> <!-- Amazon.in Test Suite -->
+</testng-results>

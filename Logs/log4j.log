@@ -1,0 +1,147 @@
+2020-05-31 13:41:24  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:41:36  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:41:46  INFO Listeners.java webConnector:51 - Test Case Started: searchTest
+2020-05-31 13:41:46  INFO Listeners.java webConnector:51 - Test Case Started: searchTest
+2020-05-31 13:41:46  INFO SearchTest.java SearchTest:28 - Selecting Category
+2020-05-31 13:41:49  INFO Listeners.java webConnector:23 - Test Case Failed: searchTest
+2020-05-31 13:41:50  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot1871434206107782779.png
+2020-05-31 13:41:50  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenShot20200531_134149.jpg
+2020-05-31 13:41:50  INFO Listeners.java webConnector:23 - Test Case Failed: searchTest
+2020-05-31 13:41:51  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot8342316182047112408.png
+2020-05-31 13:41:51  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenShot20200531_134150.jpg
+2020-05-31 13:41:51  INFO Listeners.java webConnector:51 - Test Case Started: deleteProduct
+2020-05-31 13:41:51  INFO Listeners.java webConnector:51 - Test Case Started: deleteProduct
+2020-05-31 13:41:53  INFO DeleteProductTest.java DeleteProductTest:23 - Deleting item
+2020-05-31 13:42:03  INFO Listeners.java webConnector:23 - Test Case Failed: deleteProduct
+2020-05-31 13:42:04  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot5970721579563411811.png
+2020-05-31 13:42:04  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenShot20200531_134203.jpg
+2020-05-31 13:42:04  INFO Listeners.java webConnector:23 - Test Case Failed: deleteProduct
+2020-05-31 13:42:04  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot2831542912841865541.png
+2020-05-31 13:42:04  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenShot20200531_134204.jpg
+2020-05-31 13:42:04  INFO Listeners.java webConnector:51 - Test Case Started: wishlistTest
+2020-05-31 13:42:04  INFO Listeners.java webConnector:51 - Test Case Started: wishlistTest
+2020-05-31 13:42:04  INFO WishlistTest.java webConnector:22 - clicking on Wishlist link
+2020-05-31 13:42:12  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:42:12  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:45:45  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:45:57  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:46:07  INFO Listeners.java webConnector:51 - Test Case Started: searchTest
+2020-05-31 13:46:07  INFO Listeners.java webConnector:51 - Test Case Started: searchTest
+2020-05-31 13:46:07  INFO SearchTest.java SearchTest:28 - Selecting Category
+2020-05-31 13:46:13  INFO SearchTest.java SearchTest:31 - select 1st item
+2020-05-31 13:46:13  INFO SearchPage.java SearchPage:56 - selecting first item
+2020-05-31 13:46:17  INFO SearchPage.java SearchPage:63 - waiting for Add to cart button
+2020-05-31 13:46:18  INFO SearchTest.java SearchTest:34 - Verifying if item has been added to cart
+2020-05-31 13:46:19  INFO Listeners.java webConnector:60 - Test Case Passed: searchTest
+2020-05-31 13:46:19  INFO Listeners.java webConnector:60 - Test Case Passed: searchTest
+2020-05-31 13:46:19  INFO Listeners.java webConnector:51 - Test Case Started: deleteProduct
+2020-05-31 13:46:19  INFO Listeners.java webConnector:51 - Test Case Started: deleteProduct
+2020-05-31 13:46:20  INFO DeleteProductTest.java DeleteProductTest:23 - Deleting item
+2020-05-31 13:46:21  INFO Listeners.java webConnector:60 - Test Case Passed: deleteProduct
+2020-05-31 13:46:21  INFO Listeners.java webConnector:60 - Test Case Passed: deleteProduct
+2020-05-31 13:46:21  INFO Listeners.java webConnector:51 - Test Case Started: wishlistTest
+2020-05-31 13:46:21  INFO Listeners.java webConnector:51 - Test Case Started: wishlistTest
+2020-05-31 13:46:22  INFO WishlistTest.java webConnector:22 - clicking on Wishlist link
+2020-05-31 13:46:32  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:46:33  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot4201997237912504396.png
+2020-05-31 13:46:33  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenShot20200531_134632.jpg
+2020-05-31 13:46:33  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:46:33  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot626567961458708230.png
+2020-05-31 13:46:33  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenShot20200531_134633.jpg
+2020-05-31 13:46:33  INFO Listeners.java webConnector:51 - Test Case Started: signinTest
+2020-05-31 13:46:33  INFO Listeners.java webConnector:51 - Test Case Started: signinTest
+2020-05-31 13:46:34  INFO SigninTest.java SigninTest:28 - Entering user name, password
+2020-05-31 13:46:38  INFO SigninTest.java SigninTest:30 - Validate login
+2020-05-31 13:46:38  INFO Listeners.java webConnector:60 - Test Case Passed: signinTest
+2020-05-31 13:46:38  INFO Listeners.java webConnector:60 - Test Case Passed: signinTest
+2020-05-31 13:50:19  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:50:30  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:50:41  INFO Listeners.java webConnector:49 - Test Case Started: searchTest
+2020-05-31 13:50:41  INFO Listeners.java webConnector:49 - Test Case Started: searchTest
+2020-05-31 13:50:41  INFO SearchTest.java SearchTest:28 - Selecting Category
+2020-05-31 13:50:47  INFO SearchTest.java SearchTest:31 - select 1st item
+2020-05-31 13:50:47  INFO SearchPage.java SearchPage:56 - selecting first item
+2020-05-31 13:50:49  INFO SearchPage.java SearchPage:63 - waiting for Add to cart button
+2020-05-31 13:50:50  INFO SearchTest.java SearchTest:34 - Verifying if item has been added to cart
+2020-05-31 13:50:52  INFO Listeners.java webConnector:58 - Test Case Passed: searchTest
+2020-05-31 13:50:52  INFO Listeners.java webConnector:58 - Test Case Passed: searchTest
+2020-05-31 13:50:52  INFO Listeners.java webConnector:49 - Test Case Started: deleteProduct
+2020-05-31 13:50:52  INFO Listeners.java webConnector:49 - Test Case Started: deleteProduct
+2020-05-31 13:50:54  INFO DeleteProductTest.java DeleteProductTest:23 - Deleting item
+2020-05-31 13:50:54  INFO Listeners.java webConnector:58 - Test Case Passed: deleteProduct
+2020-05-31 13:50:54  INFO Listeners.java webConnector:58 - Test Case Passed: deleteProduct
+2020-05-31 13:50:54  INFO Listeners.java webConnector:49 - Test Case Started: wishlistTest
+2020-05-31 13:50:54  INFO Listeners.java webConnector:49 - Test Case Started: wishlistTest
+2020-05-31 13:50:54  INFO WishlistTest.java webConnector:22 - clicking on Wishlist link
+2020-05-31 13:51:06  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:51:07  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot4702344969380597434.png
+2020-05-31 13:51:07  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\screenshots\FailedTCScreenShot20200531_135106.jpg
+2020-05-31 13:51:07  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:51:08  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot4236620020387691590.png
+2020-05-31 13:51:08  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\screenshots\FailedTCScreenShot20200531_135107.jpg
+2020-05-31 13:51:08  INFO Listeners.java webConnector:49 - Test Case Started: signinTest
+2020-05-31 13:51:08  INFO Listeners.java webConnector:49 - Test Case Started: signinTest
+2020-05-31 13:51:09  INFO SigninTest.java SigninTest:28 - Entering user name, password
+2020-05-31 13:51:13  INFO SigninTest.java SigninTest:30 - Validate login
+2020-05-31 13:51:13  INFO Listeners.java webConnector:58 - Test Case Passed: signinTest
+2020-05-31 13:51:13  INFO Listeners.java webConnector:58 - Test Case Passed: signinTest
+2020-05-31 13:56:10  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 13:56:22  INFO Listeners.java webConnector:49 - Test Case Started: searchTest
+2020-05-31 13:56:22  INFO SearchTest.java SearchTest:28 - Selecting Category
+2020-05-31 13:56:26  INFO SearchTest.java SearchTest:31 - select 1st item
+2020-05-31 13:56:27  INFO SearchPage.java SearchPage:56 - selecting first item
+2020-05-31 13:56:29  INFO SearchPage.java SearchPage:63 - waiting for Add to cart button
+2020-05-31 13:56:31  INFO SearchTest.java SearchTest:34 - Verifying if item has been added to cart
+2020-05-31 13:56:32  INFO Listeners.java webConnector:58 - Test Case Passed: searchTest
+2020-05-31 13:56:32  INFO Listeners.java webConnector:49 - Test Case Started: deleteProduct
+2020-05-31 13:56:34  INFO DeleteProductTest.java DeleteProductTest:23 - Deleting item
+2020-05-31 13:56:35  INFO Listeners.java webConnector:58 - Test Case Passed: deleteProduct
+2020-05-31 13:56:35  INFO Listeners.java webConnector:49 - Test Case Started: wishlistTest
+2020-05-31 13:56:35  INFO WishlistTest.java webConnector:22 - clicking on Wishlist link
+2020-05-31 13:56:47  INFO Listeners.java webConnector:23 - Test Case Failed: wishlistTest
+2020-05-31 13:56:48  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot5108980307337161711.png
+2020-05-31 13:56:48  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\screenshots\FailedTCScreenShot20200531_135647.jpg
+2020-05-31 13:56:48  INFO Listeners.java webConnector:49 - Test Case Started: signinTest
+2020-05-31 13:56:49  INFO SigninTest.java SigninTest:28 - Entering user name, password
+2020-05-31 13:56:53  INFO SigninTest.java SigninTest:30 - Validate login
+2020-05-31 13:56:53  INFO Listeners.java webConnector:58 - Test Case Passed: signinTest
+2020-05-31 14:36:10  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 14:36:28  INFO Listeners.java webConnector:50 - Test Case Started: searchTest
+2020-05-31 14:36:28  INFO SearchTest.java SearchTest:28 - Selecting Category
+2020-05-31 14:36:45  INFO SearchTest.java SearchTest:31 - select 1st item
+2020-05-31 14:36:45  INFO SearchPage.java SearchPage:56 - selecting first item
+2020-05-31 14:36:53  INFO SearchPage.java SearchPage:63 - waiting for Add to cart button
+2020-05-31 14:36:54  INFO SearchTest.java SearchTest:34 - Verifying if item has been added to cart
+2020-05-31 14:36:55  INFO Listeners.java webConnector:59 - Test Case Passed: searchTest
+2020-05-31 14:36:55  INFO Listeners.java webConnector:50 - Test Case Started: deleteProduct
+2020-05-31 14:36:57  INFO DeleteProductTest.java DeleteProductTest:23 - Deleting item
+2020-05-31 14:36:57  INFO Listeners.java webConnector:59 - Test Case Passed: deleteProduct
+2020-05-31 14:36:57  INFO Listeners.java webConnector:50 - Test Case Started: wishlistTest
+2020-05-31 14:36:58  INFO WishlistTest.java webConnector:22 - clicking on Wishlist link
+2020-05-31 14:37:09  INFO Listeners.java webConnector:24 - Test Case Failed: wishlistTest
+2020-05-31 14:37:10  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot5923964775004980585.png
+2020-05-31 14:37:10  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenshots\FailedTCScreenShot20200531_143709.jpg
+2020-05-31 14:37:10  INFO Listeners.java webConnector:50 - Test Case Started: signinTest
+2020-05-31 14:37:11  INFO SigninTest.java SigninTest:28 - Entering user name, password
+2020-05-31 14:37:17  INFO SigninTest.java SigninTest:30 - Validate login
+2020-05-31 14:37:17  INFO Listeners.java webConnector:59 - Test Case Passed: signinTest
+2020-05-31 14:42:00  INFO webConnector.java webConnector:127 - initializing chrome
+2020-05-31 14:42:12  INFO Listeners.java webConnector:50 - Test Case Started: searchTest
+2020-05-31 14:42:12  INFO SearchTest.java SearchTest:28 - Selecting Category
+2020-05-31 14:42:17  INFO SearchTest.java SearchTest:31 - select 1st item
+2020-05-31 14:42:18  INFO SearchPage.java SearchPage:56 - selecting first item
+2020-05-31 14:42:21  INFO SearchPage.java SearchPage:63 - waiting for Add to cart button
+2020-05-31 14:42:22  INFO SearchTest.java SearchTest:34 - Verifying if item has been added to cart
+2020-05-31 14:42:23  INFO Listeners.java webConnector:59 - Test Case Passed: searchTest
+2020-05-31 14:42:23  INFO Listeners.java webConnector:50 - Test Case Started: deleteProduct
+2020-05-31 14:42:25  INFO DeleteProductTest.java DeleteProductTest:23 - Deleting item
+2020-05-31 14:42:26  INFO Listeners.java webConnector:59 - Test Case Passed: deleteProduct
+2020-05-31 14:42:26  INFO Listeners.java webConnector:50 - Test Case Started: wishlistTest
+2020-05-31 14:42:26  INFO WishlistTest.java webConnector:22 - clicking on Wishlist link
+2020-05-31 14:42:38  INFO Listeners.java webConnector:24 - Test Case Failed: wishlistTest
+2020-05-31 14:42:39  INFO webConnector.java webConnector:225 - Screen shot file location - C:\Users\AKANKS~1\AppData\Local\Temp\screenshot3538700230047399659.png
+2020-05-31 14:42:39  INFO webConnector.java webConnector:226 - Target File location - C:\Users\akankshabansal\eclipse-workspace\codeamazon\FailedTCScreenshots\FailedTCScreenShot20200531_144238.jpg
+2020-05-31 14:42:39  INFO Listeners.java webConnector:50 - Test Case Started: signinTest
+2020-05-31 14:42:40  INFO SigninTest.java SigninTest:28 - Entering user name, password
+2020-05-31 14:42:46  INFO SigninTest.java SigninTest:30 - Validate login
+2020-05-31 14:42:46  INFO Listeners.java webConnector:59 - Test Case Passed: signinTest

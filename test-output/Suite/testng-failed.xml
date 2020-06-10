@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="TestngPackage.SigninTest">
+        <methods>
+          <include name="extentReport"/>
+          <include name="validatelogin"/>
+          <include name="signinTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- TestngPackage.SigninTest -->
+      <class name="TestngPackage.DeleteProductTest">
+        <methods>
+          <include name="extentReport"/>
+          <include name="setUp"/>
+          <include name="deleteProduct"/>
+          <include name="teardown"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- TestngPackage.DeleteProductTest -->
+      <class name="TestngPackage.WishlistTest">
+        <methods>
+          <include name="wishlisTest"/>
+          <include name="setUp"/>
+          <include name="extentReport"/>
+          <include name="teardown"/>
+          <include name="end"/>
+        </methods>
+      </class> <!-- TestngPackage.WishlistTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
