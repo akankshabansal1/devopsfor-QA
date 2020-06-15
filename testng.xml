@@ -12,8 +12,7 @@
         
      <class name="TestngPackage.SearchTest"/> 
      <class name="TestngPackage.DeleteProductTest"/> 
-     <class name="TestngPackage.WishlistTest"/> 
-     <class name="TestngPackage.SigninTest"/> 
+      <class name="TestngPackage.SigninTest"/> 
      </classes>
     
   </test> <!-- Test -->
