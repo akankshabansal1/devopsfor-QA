@@ -3,18 +3,24 @@ pipeline
 agent any
 tools
 {
-maven 'maven'
+  maven 'maven'
 }
 stages
 {
-stage('checkout')
-{
-checkout scm
-}
-stage ('build')
-{
-bat "mvn clean install"
-
-}
-}
+  stage('checkout')
+  {
+    steps
+    {
+        checkout scm
+     }
+  }
+  
+  
+  stage('Build')
+  {
+    steps
+    {
+      bat "mvn clean install"
+    }
+  }
 }
