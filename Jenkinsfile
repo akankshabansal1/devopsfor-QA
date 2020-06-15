@@ -15,24 +15,66 @@ pipeline
 				//checkout scm
             }
         }
-        
-        stage('build'){
-            steps{
-                echo "build"
-                bat "mvn clean install"
-            }
-        }
-        
-        stage('sonar'){
-            steps{
-                echo "sonar"
-                withSonarQubeEnv("local sonar") 
+	    stage('Build')
+  {
+    steps
+    {
+      bat "mvn clean install"
+    }
+  }
+	
+  stage('Sonar Analysis')
+  {
+    steps
+    {
+      echo "Sonar"
+      withSonarQubeEnv("local sonar") 
 				{
 					bat "mvn org.sonarsource.scanner.maven:sonar-maven-plugin:3.2:sonar"
 				}
-            }
-        }
-		
-		        
     }
+  }
+	
+    stage ('Uploading to Artifactory')
+	{
+		steps
+		{
+		echo "Stage for artifact"
+		rtMavenDeployer (
+                    id: 'deployer',
+                    serverId: '123456789@artifactory',
+		    snapshotRepo: 'devopsforqa',
+                    releaseRepo: 'devopsforqa_release'
+                    
+                )
+                rtMavenRun (
+                    pom: 'pom.xml',
+                    goals: 'clean install',
+                    deployerId: 'deployer',
+                )
+                rtPublishBuildInfo (
+                    serverId: '123456789@artifactory',
+                )
+			
+		}
+	}
+	
+	stage('Docker Build Image')
+	{
+		steps
+		{
+			
+		}
+	}
+	
+	stage('Docker Deployment-container run')
+	{
+		steps
+		{
+			
+		}
+	}	
+	
 }
+    }     
+        
