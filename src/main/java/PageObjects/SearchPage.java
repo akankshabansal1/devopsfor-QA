@@ -54,7 +54,7 @@ public class SearchPage extends webConnector {
 	public void selectProduct() throws InterruptedException {
 		List<WebElement> links =driver.findElements(By.xpath("//div[@data-component-type='s-search-result']/div/span/div"));
 		log.info("selecting first item");
-		links.get(0).click();
+		links.get(1).click();
         switchToNewTab();
         }
 
