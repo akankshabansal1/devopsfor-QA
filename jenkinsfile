@@ -35,6 +35,26 @@ stages
 				}
     }
   }
+  stage ('Upload to Artifactory')
+		{
+			steps
+			{
+				rtMavenDeployer (
+                    id: 'deployer',
+                    serverId: '123456789@artifactory',
+                    releaseRepo: 'http://10.127.130.66:8040/artifactory/akanksha.bansalDevopsTraining/',
+                    snapshotRepo: 'http://10.127.130.66:8040/artifactory/akanksha.bansalDevopsTraining/'
+                )
+                rtMavenRun (
+                    pom: 'pom.xml',
+                    goals: 'clean install',
+                    deployerId: 'deployer',
+                )
+                rtPublishBuildInfo (
+                    serverId: '123456789@artifactory',
+                )
+			}
+		}
 }
 
 }
