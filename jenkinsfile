@@ -39,7 +39,7 @@ stages
 		{
 			steps
 			{
-				rtMavenDeployer (
+		rtMavenDeployer (
                     id: 'deployer',
                     serverId: '123456789@artifactory',
                     releaseRepo: 'akanksha.bansalDevopsTraining',
