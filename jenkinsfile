@@ -48,7 +48,23 @@ stages
 			
 		}
 	}
-	
+	stage ('Dcoker image')
+	    	{
+			steps
+			{
+				echo "Building docker image"
+				sh returnStdout: true, script: 'docker build -t devopsnagpexam2:11 .'
+			}
+		}
+		
+		stage ('Docker Deployment')
+	    	{
+			steps
+			{
+				echo "Deploying war file"
+				sh "docker run --name devopsnagpexam2container -d -p 9005:8080 devopsnagpexam2:11"
+			}
+		}
 	
 }
   
