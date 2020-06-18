@@ -10,8 +10,7 @@
   
     <classes>
         
-     <class name="TestngPackage.SearchTest"/> 
-     <class name="TestngPackage.DeleteProductTest"/> 
+    
       <class name="TestngPackage.SigninTest"/> 
      </classes>
     
